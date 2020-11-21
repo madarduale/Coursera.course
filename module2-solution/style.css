@@ -1,4 +1,7 @@
 p{
     color: black;
     font-size: x-large;
+    font-weight: bold;
+    font-style: italic;
+    background-color: burlywood;
 }
