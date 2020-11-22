@@ -1,8 +1,207 @@
-p{
-    color: black;
-    font-size: x-large;
-    font-weight: bold;
-    font-style: italic;
-    background-color: burlywood;
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    box-sizing: border-box;
+}
+h1{
+    font-size: 50px;
     text-align: center;
+    margin-top: 20px;
+}
+.column1,.column2,.column3{
+    background-color: #bbb;
+    border: 2px solid black;
+    width: 32%;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 40px;
+
+}
+p{padding: 10px 10px 10px 10px;}
+
+.column1 h2{
+    border:  1px solid #000;
+    width: 130px;
+    margin-left: 70%;
+    background-color: #5f9ee0;
+    text-align: center;
+}
+.column2 h2{
+    border:  1px solid #000;
+    width: 130px;
+    margin-left: 70%;
+    background-color: #b81c7c;
+    text-align: center;
+}
+.column3 h2{
+    border:  1px solid #000;
+    width: 130px;
+    margin-left: 70%;
+    background-color: #49ee49;
+    text-align: center;
+}
+@media  (min-width: 992px) {
+    .column1,.column2,.column3{
+        width: 40%;
+        float: left;
+        background-color: #bbb;
+        border: 2px solid black;
+        width: 32%;
+        font-size: 20px;
+        margin-top: 40px;
+    }
+    .column1{
+        margin-left: 10px;
+
+    }
+    .column2{
+        margin-left: 10px;
+    }
+    .column3{
+        margin-left: 10px;
+        
+        
+    } 
+        
+
+    .column1 h2{
+        border:  1px solid #000;
+        width: 30%;
+        margin-left: 70%;
+        background-color: #5f9ee0;
+        font-size: 20px;
+    }
+    .column2 h2{
+        border:  1px solid #000;
+        width: 30%;
+        margin-left: 70%;
+        background-color: #b81c7c;
+        font-size: 20px;
+    }
+    .column3 h2{
+        border:  1px solid #000;
+        width: 30%;
+        margin-left: 70%;
+        background-color: #49ee49;
+        font-size: 20px;
+    }
+
+}
+@media (min-width:768px) and ( max-width:991px){
+    .column1,.column2,.column3{
+        width: 100%;
+        /* float: left; */
+        background-color: #bbb;
+        border: 2px solid black;
+        width: 32%;
+        font-size: 20px;
+        margin-top: 40px;
+        clear: both;
+    }
+    .column1{
+        margin-left: 20px;
+        width: 50%;
+    }
+    .column2{
+        margin-left: 10px;
+        width: 50%;
+        margin-right: 0;
+        position: absolute;
+    }
+    .column3{
+        margin-left: 20px;
+        width: 100%;
+        margin-bottom: 20PX;
+        margin-right: 20px;
+        position: relative;
+        
+    } 
+        
+
+    .column1 h2{
+        border:  1px solid #000;
+        width: 30%;
+        margin-left: 70%;
+        background-color: #5f9ee0;
+        font-size: 20px;
+    }
+    .column2 h2{
+        border:  1px solid #000;
+        width: 30%;
+        margin-left: 70%;
+        background-color: #b81c7c;
+        font-size: 20px;
+    }
+    .column3 h2{
+        border:  1px solid #000;
+        width: 20%;
+        margin-left:80%;
+        background-color: #49ee49;
+        font-size: 25px;
+
+    }
+
+}
+@media (max-width:767px){
+    .column1,.column2,.column3{
+        width: 100%;
+        /* float: left; */
+        background-color: #bbb;
+        border: 2px solid black;
+        display: block;
+        width: 32%;
+        font-size: 20px;
+        margin-top: 40px;
+      
+    }
+    .column1{
+        margin-left: 8px;
+        width: 96%;
+        position: relative;
+        margin-top: 20px;
+        
+    }
+    .column2{
+        margin-left: 8px;
+        width: 96%;
+        margin-top: 20px;
+        position: relative;
+    }
+    .column3{
+        margin-left: 8px;
+        width: 96%;
+        position: relative;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+        
+        
+        
+    } 
+        
+
+    .column1 h2{
+        border:  1px solid #000;
+        width: 30%;
+        margin-left: 70%;
+        background-color: #5f9ee0;
+        font-size: 20px;
+    }
+    .column2 h2{
+        border:  1px solid #000;
+        width: 30%;
+        margin-left: 70%;
+        background-color: #b81c7c;
+        font-size: 20px;
+    }
+    .column3 h2{
+        border:  1px solid #000;
+        width: 20%;
+        margin-left:80%;
+        background-color: #49ee49;
+        font-size: 25px;
+
+    }
 }
