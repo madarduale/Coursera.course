@@ -62,7 +62,7 @@ h1{
     margin-right: 10px;
 }
 @media (max-width: 990px){
-    /* h1{
+    h1{
         margin-top: 120px;
     }
     .container{
@@ -70,5 +70,5 @@ h1{
         
         
     }
-     */
+    
 }
